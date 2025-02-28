@@ -1,7 +1,7 @@
 // const variable values can not change
-// const a = 100;
-// a = 150;
-// console.log(a); // Error: Assignment to constant variable.
+const a = 100;
+a = 150;
+console.log(a); // Error: Assignment to constant variable.
 
 // let variable values can change
 let z = 200;
